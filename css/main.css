@@ -1,0 +1,40 @@
+
+.block1 {
+  height: 700px;
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #333;
+}
+
+.block2 {
+  height: 700px;
+  background-image: url('../img/bg_2.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #333;
+}
+#service {
+  color:#9e2929;
+}
+.h1 {
+  font-size: 70px!important;
+}
+.h5 {
+  font-weight: normal!important;
+}
+ .web_site {
+   width: 500px;
+ }
+
+@media (max-width: 640px){
+ .web_site1 {
+   width: 500px;
+   text-align: center;
+ }
+ .h1{
+   font-size: 55px!important;
+ }
+}
